@@ -1,9 +1,9 @@
-import express from 'express';
-import mongoose from 'mongoose';
-import bodyParser from 'body-parser';
-import Note from './models/notesModel.js';
-import cors from 'cors'
-import { config } from 'dotenv';
+const express = require('express');
+const mongoose = require('mongoose');
+const bodyParser = require('body-parser');
+const Note = require('./models/notesModel.js');
+const cors = require('cors');
+const { config } = require('dotenv');
 
 
 config();
